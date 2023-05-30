@@ -11,7 +11,7 @@ Beyond Laravel, it contains the following technical stack.
 Are you starting from scratch? Want to see the commands that got us here?
 
 ```bash
-# Install a new Laravel application with Inertia.js
+# Install a new Laravel application with Pest PHP within a Git repository
 laravel new laravel-inertia-template --git --pest
 ```
 
