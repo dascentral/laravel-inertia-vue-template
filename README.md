@@ -22,6 +22,7 @@ In addition to Laravel, this application makes use of the following stack of tec
 * [Laravel View Models](https://github.com/spatie/laravel-view-models)
 * [Ray](https://spatie.be/docs/ray/v1/installation-in-your-project/laravel)
 * [Faker Plugin for Pest PHP](https://pestphp.com/docs/plugins)
+* [Larastan](https://github.com/nunomaduro/larastan)
 
 ## Script
 
@@ -47,7 +48,7 @@ yarn add -D @inertiajs/vue3
 composer config repositories.nova '{"type": "composer", "url": "https://nova.laravel.com"}' --file composer.json
 # Manually add the following to your composer.json:
 # "laravel/nova": "~4.0"
-# Then, ensure you have a valid auth.json configured for installation.
+# Ensure you have a valid auth.json configured for installation before issuing a "composer update."
 composer update --prefer-dist
 
 # Add third-party composer packages
@@ -56,7 +57,7 @@ composer require spatie/laravel-data
 composer require spatie/laravel-view-models
 composer require spatie/laravel-ray
 composer require pestphp/pest-plugin-faker --dev
-
+composer require nunomaduro/larastan:^2.0 --dev
 
 ```
 
