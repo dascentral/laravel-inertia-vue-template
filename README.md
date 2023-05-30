@@ -4,7 +4,7 @@ This repository contains a template for a brand new [Laravel 10](https://laravel
 
 ## Technical Stack
 
-In addition to Laravel, this application makes use of the following stack of technologies.
+In addition to Laravel, this application makes use of the following technologies.
 
 ### Application Stack
 
