@@ -56,7 +56,7 @@ composer config repositories.nova '{"type": "composer", "url": "https://nova.lar
 # Ensure you have a valid auth.json configured for installation before issuing a "composer update."
 composer update --prefer-dist
 
-# Add third-party composer packages
+# Install third-party composer packages
 composer require spatie/laravel-backup
 composer require spatie/laravel-data
 composer require spatie/laravel-view-models
@@ -68,7 +68,7 @@ composer require nunomaduro/larastan:^2.0 --dev
 yarn add -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 
-# Add Tailwind CSS plugins
+# Install Tailwind CSS plugins
 yarn add -D @tailwindcss/aspect-ratio
 yarn add -D @tailwindcss/forms
 yarn add -D @tailwindcss/typography
