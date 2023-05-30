@@ -6,14 +6,18 @@ This repository contains a template for a brand new [Laravel 10](https://laravel
 
 In addition to Laravel, this application makes use of the following stack of technologies.
 
-**Application Stack**
+### Application Stack
 
 * [Inertia.js](https://inertiajs.com)
 * [Vue.js](https://vuejs.org/)
 
-**Testing Utilities**
+### Composer Packages
 
+* [Laravel Backup](https://spatie.be/docs/laravel-backup)
+* [Laravel Data](https://spatie.be/docs/laravel-data)
+* [Laravel View Models](https://github.com/spatie/laravel-view-models)
 * [Faker Plugin for Pest PHP](https://pestphp.com/docs/plugins)
+* [Ray](https://spatie.be/docs/ray/v1/installation-in-your-project/laravel)
 
 ## Script
 
@@ -34,6 +38,18 @@ yarn add -D vue
 
 # Install Inertia.js - Client-side
 yarn add -D @inertiajs/vue3
+
+# Add Laravel Backup
+composer require spatie/laravel-backup
+
+# Add Laravel Data
+composer require spatie/laravel-data
+
+# Add Laravel View Models
+composer require spatie/laravel-view-models
+
+# Add Ray
+composer require spatie/laravel-ray
 
 # Add the Pest PHP Faker plugin
 composer require pestphp/pest-plugin-faker --dev
