@@ -60,7 +60,8 @@ composer require spatie/laravel-ray
 composer require pestphp/pest-plugin-faker --dev
 composer require nunomaduro/larastan:^2.0 --dev
 
-# Install Tailwind CSS
+# Install & initialize Tailwind CSS
 yarn add -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
 ```
 
