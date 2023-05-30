@@ -6,8 +6,6 @@ This repository contains a template for a brand new [Laravel 10](https://laravel
 
 In addition to Laravel, this application makes use of the following technologies.
 
-### Application Stack
-
 * [Inertia.js](https://inertiajs.com)
 * [Vue.js](https://vuejs.org/)
 * [Tailwind CSS](https://tailwindcss.com/docs/guides/laravel)
