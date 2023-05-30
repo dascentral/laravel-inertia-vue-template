@@ -25,6 +25,12 @@ In addition to Laravel, this application makes use of the following stack of tec
 * [Faker Plugin for Pest PHP](https://pestphp.com/docs/plugins)
 * [Larastan](https://github.com/nunomaduro/larastan)
 
+### Tailwind CSS Plugins
+
+* [@tailwindcss/aspect-ratio](https://github.com/tailwindlabs/tailwindcss-aspect-ratio)
+* [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)
+* [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin)
+
 ## Script
 
 Are you starting from scratch? Want to see the commands that got us here?
@@ -63,5 +69,10 @@ composer require nunomaduro/larastan:^2.0 --dev
 # Install & initialize Tailwind CSS
 yarn add -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+
+# Add Tailwind CSS plugins
+yarn add -D @tailwindcss/aspect-ratio
+yarn add -D @tailwindcss/forms
+yarn add -D @tailwindcss/typography
 ```
 
