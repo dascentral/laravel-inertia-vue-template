@@ -11,13 +11,17 @@ In addition to Laravel, this application makes use of the following stack of tec
 * [Inertia.js](https://inertiajs.com)
 * [Vue.js](https://vuejs.org/)
 
-### Composer Packages
+### First-party Laravel Packages
+
+* [Laravel Nova](https://nova.laravel.com/docs/4.0)
+
+### Third-party Composer Packages
 
 * [Laravel Backup](https://spatie.be/docs/laravel-backup)
 * [Laravel Data](https://spatie.be/docs/laravel-data)
 * [Laravel View Models](https://github.com/spatie/laravel-view-models)
-* [Faker Plugin for Pest PHP](https://pestphp.com/docs/plugins)
 * [Ray](https://spatie.be/docs/ray/v1/installation-in-your-project/laravel)
+* [Faker Plugin for Pest PHP](https://pestphp.com/docs/plugins)
 
 ## Script
 
@@ -39,19 +43,18 @@ yarn add -D vue
 # Install Inertia.js - Client-side
 yarn add -D @inertiajs/vue3
 
-# Add Laravel Backup
+# Install Laravel Nova
+composer config repositories.nova '{"type": "composer", "url": "https://nova.laravel.com"}' --file composer.json
+# Manually add the following to your composer.json:
+# "laravel/nova": "~4.0"
+# Then, ensure you have a valid auth.json configured for installation.
+composer update --prefer-dist
+
+# Add third-party composer packages
 composer require spatie/laravel-backup
-
-# Add Laravel Data
 composer require spatie/laravel-data
-
-# Add Laravel View Models
 composer require spatie/laravel-view-models
-
-# Add Ray
 composer require spatie/laravel-ray
-
-# Add the Pest PHP Faker plugin
 composer require pestphp/pest-plugin-faker --dev
 
 
