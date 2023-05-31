@@ -99,6 +99,10 @@ yarn add -D eslint-plugin-vue
 yarn add -D prettier
 yarn add -D prettier-plugin-tailwindcss
 
+# Install Stylelint
+yarn add -D stylelint
+yarn add -D stylelint-config-standard
+
 # Install Vite plugins
 yarn add -D vite-plugin-eslint
 ```
