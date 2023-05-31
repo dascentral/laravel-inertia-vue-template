@@ -33,15 +33,16 @@ In addition to Laravel, this application makes use of the following technologies
 
 * [ESLint](https://eslint.org/docs/latest/use/getting-started)
 * [Prettier](https://prettier.io/docs/en/index.html)
-* Stylelint
+* [Stylelint](https://stylelint.io/)
 
 We additionally lean into the following configurations & plugins for these tools.
 
-* eslint-config-prettier
-* eslint-plugin-prettier
-* eslint-plugin-tailwindcss
+* [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
+* [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
+* [eslint-plugin-tailwindcss](https://github.com/francoismassart/eslint-plugin-tailwindcss)
 * [eslint-plugin-vue](https://eslint.vuejs.org/)
 * [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+* [vite-plugin-eslint](https://github.com/gxmari007/vite-plugin-eslint)
 
 ## Script
 
@@ -97,5 +98,8 @@ yarn add -D eslint-plugin-vue
 # Install Prettier & plugins
 yarn add -D prettier
 yarn add -D prettier-plugin-tailwindcss
+
+# Install Vite plugins
+yarn add -D vite-plugin-eslint
 ```
 
