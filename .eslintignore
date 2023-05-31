@@ -1,0 +1,8 @@
+# https://eslint.org/docs/latest/user-guide/configuring/ignoring-code#the-eslintignore-file
+# Note: ESLint will always ignore the following even if the --no-ignore flag is passed:
+# - "node_modules/"
+# - dot-files (except for .eslintrc.*)
+# - dot-folders and their contents
+node_modules/
+public/
+vendor/

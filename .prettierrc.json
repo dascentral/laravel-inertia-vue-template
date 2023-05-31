@@ -1,0 +1,26 @@
+{
+  "arrowParens": "always",
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "quoteProps": "consistent",
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "overrides": [
+    {
+      "files": "*.php",
+      "options": {
+        "printWidth": 100,
+        "tabWidth": 4
+      }
+    },
+    {
+      "files": "package.json",
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
+}
