@@ -35,8 +35,11 @@ In addition to Laravel, this application makes use of the following technologies
 * [Prettier](https://prettier.io/docs/en/index.html)
 * Stylelint
 
-We additionally lean into the following plugins for these tools.
+We additionally lean into the following configurations & plugins for these tools.
 
+* eslint-config-prettier
+* eslint-plugin-prettier
+* eslint-plugin-tailwindcss
 * [eslint-plugin-vue](https://eslint.vuejs.org/)
 * [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 
