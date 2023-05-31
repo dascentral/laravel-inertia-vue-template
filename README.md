@@ -29,6 +29,17 @@ In addition to Laravel, this application makes use of the following technologies
 * [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)
 * [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin)
 
+### Linting & Formatting
+
+* [ESLint](https://eslint.org/docs/latest/use/getting-started)
+* [Prettier](https://prettier.io/docs/en/index.html)
+* Stylelint
+
+We additionally lean into the following plugins for these tools.
+
+* [eslint-plugin-vue](https://eslint.vuejs.org/)
+* [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+
 ## Script
 
 Are you starting from scratch? Want to see the commands that got us here?
@@ -72,5 +83,16 @@ npx tailwindcss init -p
 yarn add -D @tailwindcss/aspect-ratio
 yarn add -D @tailwindcss/forms
 yarn add -D @tailwindcss/typography
+
+# Install ESLint & plugins
+yarn add -D eslint
+yarn add -D eslint-config-prettier
+yarn add -D eslint-plugin-prettier
+yarn add -D eslint-plugin-tailwindcss
+yarn add -D eslint-plugin-vue
+
+# Install Prettier & plugins
+yarn add -D prettier
+yarn add -D prettier-plugin-tailwindcss
 ```
 
