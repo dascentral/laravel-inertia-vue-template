@@ -6,43 +6,43 @@ This repository contains a template for a brand new [Laravel 10](https://laravel
 
 In addition to Laravel, this application makes use of the following technologies.
 
-* [Inertia.js](https://inertiajs.com)
-* [Vue.js](https://vuejs.org/)
-* [Tailwind CSS](https://tailwindcss.com/docs/guides/laravel)
+- [Inertia.js](https://inertiajs.com)
+- [Vue.js](https://vuejs.org/)
+- [Tailwind CSS](https://tailwindcss.com/docs/guides/laravel)
 
 ### First-party Laravel Packages
 
-* [Laravel Nova](https://nova.laravel.com/docs/4.0)
+- [Laravel Nova](https://nova.laravel.com/docs/4.0)
 
 ### Third-party Composer Packages
 
-* [Laravel Backup](https://spatie.be/docs/laravel-backup)
-* [Laravel Data](https://spatie.be/docs/laravel-data)
-* [Laravel View Models](https://github.com/spatie/laravel-view-models)
-* [Ray](https://spatie.be/docs/ray/v1/installation-in-your-project/laravel)
-* [Faker Plugin for Pest PHP](https://pestphp.com/docs/plugins)
-* [Larastan](https://github.com/nunomaduro/larastan)
+- [Laravel Backup](https://spatie.be/docs/laravel-backup)
+- [Laravel Data](https://spatie.be/docs/laravel-data)
+- [Laravel View Models](https://github.com/spatie/laravel-view-models)
+- [Ray](https://spatie.be/docs/ray/v1/installation-in-your-project/laravel)
+- [Faker Plugin for Pest PHP](https://pestphp.com/docs/plugins)
+- [Larastan](https://github.com/nunomaduro/larastan)
 
 ### Tailwind CSS Plugins
 
-* [@tailwindcss/aspect-ratio](https://github.com/tailwindlabs/tailwindcss-aspect-ratio)
-* [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)
-* [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin)
+- [@tailwindcss/aspect-ratio](https://github.com/tailwindlabs/tailwindcss-aspect-ratio)
+- [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)
+- [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin)
 
 ### Linting & Formatting
 
-* [ESLint](https://eslint.org/docs/latest/use/getting-started)
-* [Prettier](https://prettier.io/docs/en/index.html)
-* [Stylelint](https://stylelint.io/)
+- [ESLint](https://eslint.org/docs/latest/use/getting-started)
+- [Prettier](https://prettier.io/docs/en/index.html)
+- [Stylelint](https://stylelint.io/)
 
 We additionally lean into the following configurations & plugins for these tools.
 
-* [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
-* [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
-* [eslint-plugin-tailwindcss](https://github.com/francoismassart/eslint-plugin-tailwindcss)
-* [eslint-plugin-vue](https://eslint.vuejs.org/)
-* [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
-* [vite-plugin-eslint](https://github.com/gxmari007/vite-plugin-eslint)
+- [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
+- [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
+- [eslint-plugin-tailwindcss](https://github.com/francoismassart/eslint-plugin-tailwindcss)
+- [eslint-plugin-vue](https://eslint.vuejs.org/)
+- [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+- [vite-plugin-eslint](https://github.com/gxmari007/vite-plugin-eslint)
 
 ## Script
 
@@ -106,4 +106,3 @@ yarn add -D stylelint-config-standard
 # Install Vite plugins
 yarn add -D vite-plugin-eslint
 ```
-

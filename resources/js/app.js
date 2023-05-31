@@ -6,7 +6,8 @@ import { createInertiaApp } from '@inertiajs/vue3';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 
 const appName =
-  window.document.getElementsByTagName('title')[0]?.innerText || 'Laravel Inertia Template';
+  window.document.getElementsByTagName('title')[0]?.innerText ||
+  'Laravel Inertia Template';
 
 createInertiaApp({
   title: (title) => `${title} | ${appName}`,
