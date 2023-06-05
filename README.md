@@ -74,8 +74,8 @@ composer update --prefer-dist
 # Install third-party composer packages
 composer require spatie/laravel-backup
 composer require spatie/laravel-data
-composer require spatie/laravel-view-models
 composer require spatie/laravel-ray
+composer require spatie/laravel-view-models
 composer require pestphp/pest-plugin-faker --dev
 composer require nunomaduro/larastan:^2.0 --dev
 
