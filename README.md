@@ -10,18 +10,25 @@ In addition to Laravel, this application makes use of the following technologies
 - [Vue.js](https://vuejs.org/)
 - [Tailwind CSS](https://tailwindcss.com/docs/guides/laravel)
 
-### First-party Laravel Packages
+### Composer Packages
 
-- [Laravel Nova](https://nova.laravel.com/docs/4.0)
+#### Laravel Nova
 
-### Third-party Composer Packages
+[Laravel Nova](https://nova.laravel.com/docs/4.0) is a beautifully-designed administration panel for Laravel carefully crafted by the creators of Laravel.
+
+#### Pest — The elegant PHP testing framework
+
+[Pest](https://pestphp.com/) is a testing framework with a focus on simplicity, meticulously designed to bring back the joy of testing in PHP. I add the following plugins to each Laravel application.
+
+* [Faker](https://pestphp.com/docs/plugins#faker)
+* [Laravel](https://pestphp.com/docs/plugins#laravel)
+
+#### Spatie Packages
 
 - [Laravel Backup](https://spatie.be/docs/laravel-backup)
 - [Laravel Data](https://spatie.be/docs/laravel-data)
 - [Laravel View Models](https://github.com/spatie/laravel-view-models)
 - [Ray](https://spatie.be/docs/ray/v1/installation-in-your-project/laravel)
-- [Faker Plugin for Pest PHP](https://pestphp.com/docs/plugins)
-- [Larastan](https://github.com/nunomaduro/larastan)
 
 ### Tailwind CSS Plugins
 
@@ -31,6 +38,7 @@ In addition to Laravel, this application makes use of the following technologies
 
 ### Linting & Formatting
 
+- [Larastan](https://github.com/nunomaduro/larastan)
 - [ESLint](https://eslint.org/docs/latest/use/getting-started)
 - [Prettier](https://prettier.io/docs/en/index.html)
 - [Stylelint](https://stylelint.io/)
@@ -77,6 +85,7 @@ composer require spatie/laravel-data
 composer require spatie/laravel-ray
 composer require spatie/laravel-view-models
 composer require pestphp/pest-plugin-faker --dev
+composer require pestphp/pest-plugin-laravel --dev
 composer require nunomaduro/larastan:^2.0 --dev
 
 # Install & initialize Tailwind CSS
