@@ -18,7 +18,7 @@ In addition to Laravel, this application makes use of the following technologies
 
 #### Pest — The elegant PHP testing framework
 
-[Pest](https://pestphp.com/) is a testing framework with a focus on simplicity, meticulously designed to bring back the joy of testing in PHP. I add the following plugins to each Laravel application.
+[Pest](https://pestphp.com/) is a testing framework with a focus on simplicity, meticulously designed to bring back the joy of testing in PHP. We add the following plugins to each Laravel application.
 
 * [Faker](https://pestphp.com/docs/plugins#faker)
 * [Laravel](https://pestphp.com/docs/plugins#laravel)
