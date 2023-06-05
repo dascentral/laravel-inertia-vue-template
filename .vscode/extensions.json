@@ -1,0 +1,23 @@
+{
+  "recommendations": [
+    "amiralizadeh9480.laravel-extra-intellisense",
+    "bmewburn.vscode-intelephense-client",
+    "bradlc.vscode-tailwindcss",
+    "christian-kohler.path-intellisense",
+    "dansysanalyst.pest-snippets",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "emeraldwalk.runonsave",
+    "irongeek.vscode-env",
+    "m1guelpf.better-pest",
+    "mehedidracula.php-namespace-resolver",
+    "mikestead.dotenv",
+    "mohamedbenhida.laravel-intellisense",
+    "neilbrayfield.php-docblocker",
+    "redhat.vscode-yaml",
+    "ryannaddy.laravel-artisan",
+    "stylelint.vscode-stylelint",
+    "vue.volar",
+    "wix.vscode-import-cost"
+  ]
+}
