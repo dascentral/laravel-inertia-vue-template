@@ -12,9 +12,7 @@
       }
     ]
   },
-  "yaml.customTags": [
-    "!Ref"
-  ],
+  "yaml.customTags": ["!Ref"],
   "[blade]": {
     "editor.tabSize": 4
   },
