@@ -54,10 +54,14 @@ We additionally lean into the following configurations & plugins for these tools
 
 ## Application Customizations
 
-## Testing
+### Models
 
-* I added the `LazilyRefreshDatabase` trait to `tests/TestCase.php` which will ensure the database is refreshed only when necessary within each test
-* I added a `login()` method to `tests/Pest.php` that allows us to easily authenticate users within tests
+* Split `name` into `first` and `last` name fields within `App\Models\User.php`
+
+### Testing
+
+* Added the `LazilyRefreshDatabase` trait to `tests/TestCase.php`
+* Added a `login()` method to `tests/Pest.php` that easily creates & authenticates users within tests
 
 ## Script
 
