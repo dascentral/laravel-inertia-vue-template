@@ -52,6 +52,13 @@ We additionally lean into the following configurations & plugins for these tools
 - [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 - [vite-plugin-eslint](https://github.com/gxmari007/vite-plugin-eslint)
 
+## Application Customizations
+
+## Testing
+
+* I added the `LazilyRefreshDatabase` trait to `tests/TestCase.php` which will ensure the database is refreshed only when necessary within each test
+* I added a `login()` method to `tests/Pest.php` that allows us to easily authenticate users within tests
+
 ## Script
 
 Are you starting from scratch? Want to see the commands that got us here?
