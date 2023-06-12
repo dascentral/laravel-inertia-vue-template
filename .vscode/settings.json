@@ -15,6 +15,9 @@
   "[javascriptreact]": {
     "editor.formatOnSave": false
   },
+  "[php]": {
+    "editor.defaultFormatter": "open-southeners.laravel-pint"
+  },
   "[vue]": {
     "editor.formatOnSave": false
   }
