@@ -1,17 +1,10 @@
 {
-  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "emeraldwalk.runonsave": {
-    "commands": [
-      {
-        "match": ".*",
-        "isAsync": true,
-        "cmd": "./vendor/bin/pint"
-      }
-    ]
-  },
+  "editor.formatOnSave": true,
+  "editor.renderFinalNewline": "dimmed",
+  "laravel-pint.enable": true,
   "yaml.customTags": ["!Ref"],
   "[blade]": {
     "editor.tabSize": 4
