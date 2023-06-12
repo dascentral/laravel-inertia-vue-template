@@ -14,6 +14,7 @@
     "mikestead.dotenv",
     "mohamedbenhida.laravel-intellisense",
     "neilbrayfield.php-docblocker",
+    "open-southeners.laravel-pint",
     "redhat.vscode-yaml",
     "ryannaddy.laravel-artisan",
     "stylelint.vscode-stylelint",
