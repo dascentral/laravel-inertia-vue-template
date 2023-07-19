@@ -45,11 +45,11 @@
     }
   },
   "scripts": {
-    "phpstan": [
-      "./vendor/bin/phpstan analyse"
-    ],
-    "pint": [
+    "lint": [
       "./vendor/bin/pint"
+    ],
+    "test:types": [
+      "./vendor/bin/phpstan analyse --ansi"
     ],
     "post-autoload-dump": [
       "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
