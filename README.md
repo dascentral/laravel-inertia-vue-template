@@ -25,7 +25,7 @@ php artisan migrate:fresh --seed
 # Start the development server
 yarn dev
 
-# Visit http://laravel-inertia-vue-template.test
+# If using Laravel Valet, visit http://laravel-inertia-vue-template.test
 ```
 
 ## Technical Stack
