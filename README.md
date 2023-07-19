@@ -15,7 +15,7 @@ composer install
 
 # Create local environment
 cp .env .env.example
-php artisan key generate
+php artisan key:generate
 
 # Create a database named "laravel_inertia_vue_template"
 
