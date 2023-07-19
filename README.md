@@ -1,6 +1,32 @@
-# Laravel + Inertia.js Template
+# Laravel + Inertia.js + Vue.js Template
 
 This repository contains a template for a brand new [Laravel 10](https://laravel.com/docs/10.x) application.
+
+## Getting Started
+
+This repository template includes the use of [Laravel Nova](https://nova.laravel.com/) which is a paid application. You must either add an `auth.json` to the root of this repository with valid credentials or remove Laravel Nova from the list of composer dependencies before getting started.
+
+```bash
+# Install Node.js dependencies
+yarn install
+
+# Install PHP dependencies
+composer install
+
+# Create local environment
+cp .env .env.example
+php artisan key generate
+
+# Create a database named "laravel_inertia_vue_template"
+
+# Create fresh database
+php artisan migrate:fresh --seed
+
+# Start the development server
+yarn dev
+
+# Visit http://laravel-inertia-vue-template.test
+```
 
 ## Technical Stack
 
