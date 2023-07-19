@@ -77,6 +77,7 @@ We additionally lean into the following configurations & plugins for these tools
 - [eslint-plugin-vue](https://eslint.vuejs.org/)
 - [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 - [vite-plugin-eslint](https://github.com/gxmari007/vite-plugin-eslint)
+- [vite-plugin-vue](https://github.com/vitejs/vite-plugin-vue)
 
 ## Application Customizations
 
