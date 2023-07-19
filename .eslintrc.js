@@ -13,6 +13,8 @@ module.exports = {
   rules: {
     'indent': ['error', 2],
     'prettier/prettier': ['error', {}, { usePrettierrc: true }],
+    // TODO: Enable this class and debug error
+    // https://github.com/francoismassart/eslint-plugin-tailwindcss/issues/234
     'tailwindcss/no-custom-classname': 'off',
   },
 };
