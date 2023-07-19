@@ -48,6 +48,9 @@
     "lint": [
       "./vendor/bin/pint"
     ],
+    "test:app": [
+      "@php artisan test"
+    ],
     "test:types": [
       "./vendor/bin/phpstan analyse --ansi"
     ],
