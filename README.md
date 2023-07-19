@@ -150,5 +150,6 @@ yarn add -D stylelint
 yarn add -D stylelint-config-standard
 
 # Install Vite plugins
+yarn add -D @vitejs/plugin-vue
 yarn add -D vite-plugin-eslint
 ```
