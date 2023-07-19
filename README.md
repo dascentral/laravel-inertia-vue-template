@@ -4,7 +4,7 @@ This repository contains a template for a brand new [Laravel 10](https://laravel
 
 ## Getting Started
 
-This repository template includes the use of [Laravel Nova](https://nova.laravel.com/) which is a paid application. You must either add an `auth.json` to the root of this repository with valid credentials or remove Laravel Nova from the list of composer dependencies before getting started.
+This repository template includes the use of [Laravel Nova](https://nova.laravel.com/) which is a paid application. Before getting started, you must either add an auth.json to the root of this repository with valid credentials or remove Laravel Nova from the list of composer dependencies.
 
 ```bash
 # Install Node.js dependencies
