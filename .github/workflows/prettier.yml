@@ -1,10 +1,10 @@
-name: Fix code styling via Prettier
+name: Prettier
 
 on: [push]
 
 jobs:
   format:
-    name: Fix code styling via Prettier
+    name: Prettier
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code

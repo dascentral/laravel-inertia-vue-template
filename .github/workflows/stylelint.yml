@@ -1,10 +1,10 @@
-name: Fix code styling via Stylelint
+name: Stylelint
 
 on: [push]
 
 jobs:
   format:
-    name: Fix code styling via Stylelint
+    name: Stylelint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code

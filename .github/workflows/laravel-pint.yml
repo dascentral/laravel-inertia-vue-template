@@ -1,10 +1,10 @@
-name: Fix code styling via Laravel Pint
+name: Laravel Pint
 
 on: [push]
 
 jobs:
   format:
-    name: Fix PHP code styling
+    name: Laravel Pint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
