@@ -56,12 +56,12 @@ We additionally lean into the following configurations & plugins for these tools
 
 ### Models
 
-* Split `name` into `first` and `last` name fields within `App\Models\User.php`
+- Split `name` into `first` and `last` name fields within `App\Models\User.php`
 
 ### Testing
 
-* Added the `LazilyRefreshDatabase` trait to `tests/TestCase.php`
-* Added a `login()` method to `tests/Pest.php` that easily creates & authenticates users within tests
+- Added the `LazilyRefreshDatabase` trait to `tests/TestCase.php`
+- Added a `login()` method to `tests/Pest.php` that easily creates & authenticates users within tests
 
 ## Script
 
