@@ -54,6 +54,10 @@
     "test:types": [
       "./vendor/bin/phpstan analyse --ansi"
     ],
+    "test": [
+      "@test:app",
+      "@test:types"
+    ],
     "post-autoload-dump": [
       "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
       "@php artisan package:discover --ansi"
