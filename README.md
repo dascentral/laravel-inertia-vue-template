@@ -19,7 +19,7 @@ php artisan key generate
 
 # Create a database named "laravel_inertia_vue_template"
 
-# Create fresh database
+# Migrate and seed a fresh database
 php artisan migrate:fresh --seed
 
 # Start the development server
