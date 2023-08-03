@@ -5,7 +5,12 @@ on: [push]
 jobs:
   format:
     name: Laravel Pint
+
+    permissions:
+      contents: write
+
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
