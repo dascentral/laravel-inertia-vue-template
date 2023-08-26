@@ -96,7 +96,7 @@ Are you starting from scratch? Want to see the commands that got us here?
 
 ```bash
 # Install a new Laravel application with Pest PHP within a Git repository
-laravel new laravel-inertia-template --git --pest
+laravel new laravel-inertia-vue-template --git --pest
 
 # Install Inertia.js - Server-side
 composer require inertiajs/inertia-laravel
