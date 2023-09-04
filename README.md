@@ -10,6 +10,10 @@ This repository template includes the use of [Laravel Nova](https://nova.laravel
 # Install Node.js dependencies
 yarn install
 
+# Add an "auth.json" with valid credentials for Laravel Nova to
+# the root of the repository. If you do not have a license,
+# remove Laravel Nova from the list of dependencies.
+
 # Install PHP dependencies
 composer install
 
