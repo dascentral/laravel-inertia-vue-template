@@ -7,7 +7,6 @@ This repository contains a template for a brand new [Laravel 10](https://laravel
 ### Install Node.js Dependencies
 
 ```bash
-# Install Node.js dependencies
 yarn install
 ```
 
@@ -18,21 +17,18 @@ This repository template includes the use of [Laravel Nova](https://nova.laravel
 ### Install PHP Depdencies
 
 ```bash
-# Install PHP dependencies
 composer install
 ```
 
 ### Configure the Laravel Environment
 
 ```bash
-# Create local environment
 cp .env.example .env
 ```
 
 ### Generate an Application Key
 
 ```bash
-# Generate application key
 php artisan key:generate
 ```
 
@@ -43,14 +39,12 @@ With your application now properly configured, you will need to create a new MyS
 ### Migrate & Seed the Database
 
 ```bash
-# Migrate and seed a fresh database
 php artisan migrate:fresh --seed
 ```
 
 ### Start the Develoment Server
 
 ```bash
-# Start the development server
 yarn dev
 ```
 
