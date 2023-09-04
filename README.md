@@ -18,7 +18,7 @@ yarn install
 composer install
 
 # Create local environment
-cp .env .env.example
+cp .env.example .env
 php artisan key:generate
 
 # Create a database named "laravel_inertia_vue_template"
