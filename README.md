@@ -4,29 +4,51 @@ This repository contains a template for a brand new [Laravel 10](https://laravel
 
 ## Getting Started
 
-This repository template includes the use of [Laravel Nova](https://nova.laravel.com/) which is a paid application. Before getting started, you must either add an auth.json to the root of this repository with valid credentials or remove Laravel Nova from the list of composer dependencies.
+### Install Node.js Dependencies
 
 ```bash
-# Install Node.js dependencies
 yarn install
-
-# Install PHP dependencies
-composer install
-
-# Create local environment
-cp .env .env.example
-php artisan key:generate
-
-# Create a database named "laravel_inertia_vue_template"
-
-# Migrate and seed a fresh database
-php artisan migrate:fresh --seed
-
-# Start the development server
-yarn dev
-
-# If using Laravel Valet, visit http://laravel-inertia-vue-template.test
 ```
+
+### Add Laravel Nova Credentials
+
+This repository template includes the use of [Laravel Nova](https://nova.laravel.com/) which is a paid application. Before getting started, you must either add an auth.json to the root of this repository with valid credentials or remove Laravel Nova from the list of composer dependencies.
+
+### Install PHP Depdencies
+
+```bash
+composer install
+```
+
+### Configure the Laravel Environment
+
+```bash
+cp .env.example .env
+```
+
+### Generate an Application Key
+
+```bash
+php artisan key:generate
+```
+
+### Create a Local Database
+
+With your application now properly configured, you will need to create a new MySQL database. This template assumes the use of a database named `laravel_inertia_vue_templates`.
+
+### Migrate & Seed the Database
+
+```bash
+php artisan migrate:fresh --seed
+```
+
+### Start the Develoment Server
+
+```bash
+yarn dev
+```
+
+If using Laravel Valet or Laravel Herd, your site should now be live: http://laravel-inertia-vue-template.test.
 
 ## Technical Stack
 
