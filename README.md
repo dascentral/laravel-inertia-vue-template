@@ -80,7 +80,7 @@ In addition to Laravel, this application makes use of the following technologies
 
 ### Additional PHP Packages
 
-* [Predis](https://github.com/predis/predis) — A flexible and feature-complete Redis client for PHP
+* [Predis](https://github.com/predis/predis) — A flexible and feature-complete Redis client for PHP. I have configured this application to use `predis` as the default Redis client within `config/databsae.php`.
 
 ### Tailwind CSS Plugins
 
