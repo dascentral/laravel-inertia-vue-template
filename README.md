@@ -78,6 +78,10 @@ In addition to Laravel, this application makes use of the following technologies
 - [Laravel View Models](https://github.com/spatie/laravel-view-models)
 - [Ray](https://spatie.be/docs/ray/v1/installation-in-your-project/laravel)
 
+### Additional PHP Packages
+
+* [Predis](https://github.com/predis/predis) — A flexible and feature-complete Redis client for PHP
+
 ### Tailwind CSS Plugins
 
 - [@tailwindcss/aspect-ratio](https://github.com/tailwindlabs/tailwindcss-aspect-ratio)
