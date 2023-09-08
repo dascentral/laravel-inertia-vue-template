@@ -66,6 +66,7 @@ I typically add the following packages to any Laravel application.
 
 * [Laravel Nova](https://nova.laravel.com/docs/4.0)
 * [Laravel Horizon](https://laravel.com/docs/10.x/horizon)
+* [Laravel Telescope](https://laravel.com/docs/10.x/telescope)
 
 #### Core Dependencies — Third-Party
 
@@ -145,6 +146,7 @@ composer update --prefer-dist
 
 # Install first-party composer packages
 composer require laravel/horizon
+composer require laravel/telescope
 
 # Install third-party composer packages
 composer require spatie/laravel-backup
@@ -187,4 +189,7 @@ yarn add -D vite-plugin-eslint
 # Install Laravel Horizon
 php artisan horizon:install
 
+# Install Laravel Telescope
+php artisan telescope:install
+php artisan migrate
 ```
