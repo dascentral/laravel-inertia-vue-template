@@ -112,6 +112,10 @@ We additionally lean into the following configurations & plugins for these tools
 
 * Set the default Redis client to `predis`. This change is not necessary if you enabled the `phpredis` PHP extension.
 
+### Providers
+
+* Enabled "strict mode" for Models by executing `Model::shouldBeStrict()` in the `boot()` method within `Providers/AppServiceProvider.php`
+
 ### Testing
 
 - Added the `LazilyRefreshDatabase` trait to `tests/TestCase.php`
