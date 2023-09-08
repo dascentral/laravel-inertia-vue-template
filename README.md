@@ -58,39 +58,35 @@ In addition to Laravel, this application makes use of the following technologies
 - [Vue.js](https://vuejs.org/)
 - [Tailwind CSS](https://tailwindcss.com/docs/guides/laravel)
 
-### Composer Packages
+### Composer Packages (PHP)
 
-#### Laravel Nova
+I typically add the following packages to any Laravel application.
 
-[Laravel Nova](https://nova.laravel.com/docs/4.0) is a beautifully-designed administration panel for Laravel carefully crafted by the creators of Laravel.
+#### Core Dependencies — First-Party
 
-#### Pest — The elegant PHP testing framework
+* [Laravel Nova](https://nova.laravel.com/docs/4.0)
+* [Laravel Horizon](https://laravel.com/docs/10.x/horizon)
 
-[Pest](https://pestphp.com/) is a testing framework with a focus on simplicity, meticulously designed to bring back the joy of testing in PHP. We add the following plugins to each Laravel application.
+#### Core Dependencies — Third-Party
 
-- [Faker](https://pestphp.com/docs/plugins#faker)
-- [Laravel](https://pestphp.com/docs/plugins#laravel)
+* [Pest](https://pestphp.com/)
+* [Laravel Backup](https://spatie.be/docs/laravel-backup)
+* [Laravel Data](https://spatie.be/docs/laravel-data)
+* [Laravel Ray](https://spatie.be/docs/ray/v1/installation-in-your-project/laravel)
+* [Laravel View Models](https://github.com/spatie/laravel-view-models)
+* [Predis](https://github.com/predis/predis)
 
-#### Spatie Packages
+#### Development Dependencies
 
-- [Laravel Backup](https://spatie.be/docs/laravel-backup)
-- [Laravel Data](https://spatie.be/docs/laravel-data)
-- [Laravel View Models](https://github.com/spatie/laravel-view-models)
-- [Ray](https://spatie.be/docs/ray/v1/installation-in-your-project/laravel)
+- [Pest Plugin: Faker](https://pestphp.com/docs/plugins#faker)
+- [Pest Plugin: Laravel](https://pestphp.com/docs/plugins#laravel)
+- [Larastan](https://github.com/nunomaduro/larastan)
 
-### Additional PHP Packages
-
-* [Predis](https://github.com/predis/predis) — A flexible and feature-complete Redis client for PHP. I have configured this application to use `predis` as the default Redis client within `config/databsae.php`.
-
-### Tailwind CSS Plugins
+### Node.js Dependencies
 
 - [@tailwindcss/aspect-ratio](https://github.com/tailwindlabs/tailwindcss-aspect-ratio)
 - [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)
 - [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin)
-
-### Linting & Formatting
-
-- [Larastan](https://github.com/nunomaduro/larastan)
 - [ESLint](https://eslint.org/docs/latest/use/getting-started)
 - [Prettier](https://prettier.io/docs/en/index.html)
 - [Stylelint](https://stylelint.io/)
@@ -110,6 +106,10 @@ We additionally lean into the following configurations & plugins for these tools
 ### Models
 
 - Split `name` into `first` and `last` name fields within `App\Models\User.php`
+
+### Database
+
+* Set the default Redis client to `predis`. This change is not necessary if you enabled the `phpredis` PHP extension.
 
 ### Testing
 
@@ -143,11 +143,15 @@ composer config repositories.nova '{"type": "composer", "url": "https://nova.lar
 # Ensure you have a valid auth.json configured for installation before issuing a "composer update."
 composer update --prefer-dist
 
+# Install first-party composer packages
+composer require laravel/horizon
+
 # Install third-party composer packages
 composer require spatie/laravel-backup
 composer require spatie/laravel-data
 composer require spatie/laravel-ray
 composer require spatie/laravel-view-models
+composer require predis/predis
 composer require pestphp/pest-plugin-faker --dev
 composer require pestphp/pest-plugin-laravel --dev
 composer require nunomaduro/larastan:^2.0 --dev
@@ -179,4 +183,8 @@ yarn add -D stylelint-config-standard
 # Install Vite plugins
 yarn add -D @vitejs/plugin-vue
 yarn add -D vite-plugin-eslint
+
+# Install Laravel Horizon
+php artisan horizon:install
+
 ```
