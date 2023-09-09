@@ -64,18 +64,18 @@ I typically add the following packages to any Laravel application.
 
 #### Core Dependencies — First-Party
 
-* [Laravel Nova](https://nova.laravel.com/docs/4.0)
-* [Laravel Horizon](https://laravel.com/docs/10.x/horizon)
-* [Laravel Telescope](https://laravel.com/docs/10.x/telescope)
+- [Laravel Nova](https://nova.laravel.com/docs/4.0)
+- [Laravel Horizon](https://laravel.com/docs/10.x/horizon)
+- [Laravel Telescope](https://laravel.com/docs/10.x/telescope)
 
 #### Core Dependencies — Third-Party
 
-* [Pest](https://pestphp.com/)
-* [Laravel Backup](https://spatie.be/docs/laravel-backup)
-* [Laravel Data](https://spatie.be/docs/laravel-data)
-* [Laravel Ray](https://spatie.be/docs/ray/v1/installation-in-your-project/laravel)
-* [Laravel View Models](https://github.com/spatie/laravel-view-models)
-* [Predis](https://github.com/predis/predis)
+- [Pest](https://pestphp.com/)
+- [Laravel Backup](https://spatie.be/docs/laravel-backup)
+- [Laravel Data](https://spatie.be/docs/laravel-data)
+- [Laravel Ray](https://spatie.be/docs/ray/v1/installation-in-your-project/laravel)
+- [Laravel View Models](https://github.com/spatie/laravel-view-models)
+- [Predis](https://github.com/predis/predis)
 
 #### Development Dependencies
 
@@ -110,11 +110,11 @@ We additionally lean into the following configurations & plugins for these tools
 
 ### Database
 
-* Set the default Redis client to `predis`. This change is not necessary if you enabled the `phpredis` PHP extension.
+- Set the default Redis client to `predis`. This change is not necessary if you enabled the `phpredis` PHP extension.
 
 ### Providers
 
-* Enabled "strict mode" for Models by executing `Model::shouldBeStrict()` in the `boot()` method within `Providers/AppServiceProvider.php`
+- Enabled "strict mode" for Models by executing `Model::shouldBeStrict()` in the `boot()` method within `Providers/AppServiceProvider.php`
 
 ### Testing
 
