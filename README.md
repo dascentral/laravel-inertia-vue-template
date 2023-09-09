@@ -114,12 +114,12 @@ We additionally lean into the following configurations & plugins for these tools
 
 ### Providers
 
-- Enabled "strict mode" for Models by executing `Model::shouldBeStrict()` in the `boot()` method within `Providers/AppServiceProvider.php`
+- Enabled "strict mode" for Models by executing `Model::shouldBeStrict()` in the `boot()` method of `Providers/AppServiceProvider.php`
 
 ### Testing
 
 - Added the `LazilyRefreshDatabase` trait to `tests/TestCase.php`
-- Added a `login()` method to `tests/Pest.php` that easily creates & authenticates users within tests
+- Added a `login()` method to `tests/Pest.php` to easily create & authenticate users within tests
 
 ## Script
 
