@@ -12,7 +12,7 @@ yarn install
 
 ### Add Laravel Nova Credentials
 
-This repository template includes the use of [Laravel Nova](https://nova.laravel.com/) which is a paid application. Before getting started, you must either add an auth.json to the root of this repository with valid credentials or remove Laravel Nova from the list of composer dependencies.
+This repository template includes the use of [Laravel Nova](https://nova.laravel.com/) which is a paid application. Before getting started, you must either add an `auth.json` to the root of this repository with valid credentials or remove Laravel Nova from the list of composer dependencies.
 
 ### Install PHP Depdencies
 
@@ -34,7 +34,7 @@ php artisan key:generate
 
 ### Create a Local Database
 
-With your application now properly configured, you will need to create a new MySQL database. This template assumes the use of a database named `laravel_inertia_vue_templates`.
+With your application now properly configured, you will need to create a new MySQL database. This template assumes the use of a database named `laravel_inertia_vue_template`.
 
 ### Migrate & Seed the Database
 
