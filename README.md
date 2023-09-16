@@ -195,5 +195,10 @@ php artisan horizon:install
 
 # Install Laravel Telescope
 php artisan telescope:install
+
+# Install Laravel Nova
+php artisan nova:install
+
+# Migrate the database
 php artisan migrate
 ```
