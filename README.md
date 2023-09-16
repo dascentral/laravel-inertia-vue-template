@@ -104,13 +104,22 @@ We additionally lean into the following configurations & plugins for these tools
 
 ## Application Customizations
 
-### Models
-
-- Split `name` into `first` and `last` name fields within `App\Models\User.php`
-
 ### Database
 
 - Set the default Redis client to `predis`. This change is not necessary if you enabled the `phpredis` PHP extension.
+
+### Migrations
+
+#### Users Table
+
+* Replaced `$table->timestamps()` with the `date_created` and `last_updated` column names
+
+### User Model
+
+- Replaced the `fillable` array with a `guarded` array containing `id`, `date_created`, and `last_updated`
+- Split `name` into `first` and `last` name fields within `App\Models\User.php`
+- Added a `name` accessor that concatenates `first` and `last` fields
+- Removed PHPDoc blocks
 
 ### Providers
 
