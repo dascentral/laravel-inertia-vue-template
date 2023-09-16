@@ -21,6 +21,9 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+    public const CREATED_AT = 'date_created';
+
+    public const UPDATED_AT = 'last_updated';
     ];
 
     protected $hidden = [
