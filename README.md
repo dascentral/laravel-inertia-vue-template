@@ -112,7 +112,7 @@ We additionally lean into the following configurations & plugins for these tools
 
 #### Users Table
 
-* Replaced `$table->timestamps()` with the `date_created` and `last_updated` column names
+- Replaced `$table->timestamps()` with the `date_created` and `last_updated` column names
 
 ### User Model
 
