@@ -13,6 +13,7 @@
 .gitignore
 .gitlab-ci.yml
 .husky
+.nvmrc
 .php_cs
 .php-cs-fixer.php
 .prettierignore
