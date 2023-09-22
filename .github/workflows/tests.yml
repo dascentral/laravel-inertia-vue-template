@@ -6,9 +6,16 @@ jobs:
   tests:
     name: Run tests
 
+    # https://github.com/actions/runner-images/tree/main/images/linux
     runs-on: ubuntu-latest
 
     steps:
+      # https://github.blog/changelog/2020-02-21-github-actions-breaking-change-ubuntu-virtual-environments-will-no-longer-start-the-mysql-service-automatically/
+      - name: Start MySQL
+        run: |
+          sudo /etc/init.d/mysql start
+          mysql -e 'CREATE DATABASE laravel_inertia_vue_template' -uroot -proot
+
       - name: Checkout code
         uses: actions/checkout@v3
 
