@@ -48,7 +48,7 @@ php artisan migrate:fresh --seed
 yarn dev
 ```
 
-If using Laravel Valet or Laravel Herd, your site should now be live: http://laravel-inertia-vue-template.test.
+If using [Laravel Herd](https://herd.laravel.com/) or [Laravel Valet](https://laravel.com/docs/master/valet), your site should now be live: http://laravel-inertia-react-template.test.
 
 ## Technical Stack
 
