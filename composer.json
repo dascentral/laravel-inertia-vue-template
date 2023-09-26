@@ -48,18 +48,22 @@
     }
   },
   "scripts": {
-    "lint": [
-      "./vendor/bin/pint"
-    ],
-    "test:app": [
-      "@php artisan test"
-    ],
-    "test:types": [
+    "analyze": [
       "./vendor/bin/phpstan analyse --ansi"
     ],
+    "analyze:baseline": [
+      "./vendor/bin/phpstan analyse --generate-baseline"
+    ],
+    "format": [
+      "./vendor/bin/pint"
+    ],
+    "lint": [
+      "@analyze"
+    ],
     "test": [
-      "@test:app",
-      "@test:types"
+      "@format",
+      "@analyze",
+      "@php artisan test"
     ],
     "post-autoload-dump": [
       "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
