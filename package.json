@@ -3,8 +3,8 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "eslint": "eslint --fix .",
-        "eslint:check": "eslint .",
+        "eslint": "eslint --fix '**/*.{js,vue}'",
+        "eslint:check": "eslint '**/*.{js,vue}'",
         "stylelint": "stylelint 'resources/**/*.css' --fix",
         "stylelint:check": "stylelint 'resources/**/*.css'",
         "prettier": "prettier --write .",
