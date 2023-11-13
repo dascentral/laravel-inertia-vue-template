@@ -62,6 +62,12 @@
       "@analyze",
       "@php artisan test"
     ],
+    "test:coverage": [
+      "./vendor/bin/pest --coverage"
+    ],
+    "test:coverage:types": [
+      "./vendor/bin/pest --type-coverage"
+    ],
     "post-autoload-dump": [
       "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
       "@php artisan package:discover --ansi"
