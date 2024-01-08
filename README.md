@@ -81,7 +81,7 @@ I typically add the following packages to any Laravel application.
 
 - [Pest Plugin: Faker](https://pestphp.com/docs/plugins#faker)
 - [Pest Plugin: Laravel](https://pestphp.com/docs/plugins#laravel)
-- [Larastan](https://github.com/nunomaduro/larastan)
+- [Larastan](https://github.com/larastan/larastan)
 
 ### Node.js Dependencies
 
@@ -169,7 +169,7 @@ composer require spatie/laravel-view-models
 composer require predis/predis
 composer require pestphp/pest-plugin-faker --dev
 composer require pestphp/pest-plugin-laravel --dev
-composer require nunomaduro/larastan:^2.0 --dev
+composer require larastan/larastan:^2.0 --dev
 
 # Install & initialize Tailwind CSS
 yarn add -D tailwindcss postcss autoprefixer
