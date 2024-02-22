@@ -6,6 +6,7 @@
 .env.dusk.example
 .env.example
 .eslintignore
+.eslintrc.cjs
 .eslintrc.js
 .git
 .gitattributes
@@ -31,6 +32,7 @@ phpstan-baseline.neon
 phpunit.xml
 phpunit.xml.bak
 pint.json
+postcss.config.cjs
 postcss.config.js
 README.md
 resources/deploy
