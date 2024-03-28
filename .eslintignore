@@ -5,4 +5,5 @@
 # - dot-folders and their contents
 node_modules/
 public/
+stroage/
 vendor/
