@@ -13,8 +13,6 @@
 .env.production
 .phpactor.json
 .phpunit.result.cache
-Homestead.json
-Homestead.yaml
 auth.json
 npm-debug.log
 ray.php
